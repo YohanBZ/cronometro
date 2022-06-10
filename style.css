@@ -27,14 +27,7 @@ body {
   flex-direction: column;
 }
 
-.time {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.time {
+.timer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,45 +37,27 @@ body {
   line-height: 125px;
 }
 
-.btn {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   font-size: 1.3rem;
-   font-weight: 500;
-   margin-bottom: 7px;
-}
+ .btn {
+   font-size: 1rem;
+   font-weight: bold;
+   font-family: 'IBM Plex Mono' , monospace;
+   color: #ffffff;
+   padding: 10px 25px;
+   background: transparent;
+   border-radius: 20px;
+   outline: none;
+   cursor: pointer;
+   margin: 3px;
+} 
 
 .start-btn {
-  color: #ffffff;
-  padding: 10px 25px;
-  background: transparent;
   border: 1px solid #1de003;
-  border-radius: 20px;
-  outline: none;
-  cursor: pointer;
-  margin: 3px;
 }
 
 .pause-btn {
-  color: #ffffff;
-  padding: 10px 25px;
-  background: transparent;
   border: 1px solid yellow;
-  border-radius: 20px;
-  outline: none;
-  cursor: pointer;
-  margin: 3px;
 }
 
 .stop-btn {
-  color: #ffffff;
-  padding: 10px 25px;
-  background: transparent;
   border: 1px solid red;
-  border-radius: 20px;
-  outline: none;
-  cursor: pointer;
-  margin: 3px;
-
 }
