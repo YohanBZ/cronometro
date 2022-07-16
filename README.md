@@ -1,4 +1,4 @@
-<h1 align="center">Stopwatch</h1>
+ <h1 align="center">Stopwatch</h1>
  <h3>Description</h3>
  <p>Project developed to train my JavaScript skills.</p>
  <h1>✔️ Technologies used</h1>
